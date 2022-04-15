@@ -1,8 +1,8 @@
 server.servlet.context-path = /contact
 
-spring.datasource.url=jdbc:postgresql://ec2-34-247-172-149.eu-west-1.compute.amazonaws.com:5432/d97irjcg89tntp?sslmode=require
-spring.datasource.username=sirseymtipakas
-spring.datasource.password=66ed619158bcac96dfaecd72fa10a826ff505e10fcbd73a98ae4aacd426218f1
+spring.datasource.url=jdbc:postgresql://localhost:5432/contact
+spring.datasource.username=postgres
+spring.datasource.password=root
 spring.jpa.show-sql=true
 
 ## Hibernate Properties
@@ -11,3 +11,4 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialec
 
 # Hibernate ddl auto (create, create-drop, validate, update)
 spring.jpa.hibernate.ddl-auto = update
+

@@ -1,6 +1,6 @@
 package com.contacts.kuehne.util;
 
-import com.contacts.kuehne.domain.Contact;
+import com.contacts.kuehne.model.Contact;
 import com.contacts.kuehne.pojo.ContactInfo;
 import org.modelmapper.ModelMapper;
 

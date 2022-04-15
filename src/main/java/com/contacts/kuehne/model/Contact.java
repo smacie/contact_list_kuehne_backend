@@ -1,4 +1,4 @@
-package com.contacts.kuehne.domain;
+package com.contacts.kuehne.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,7 +22,7 @@ public class Contact {
     @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "first_name")
+    @Column(name = "last_name")
     private String last_name;
 
     @Column(name = "profile_picture")

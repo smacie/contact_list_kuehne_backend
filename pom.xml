@@ -11,7 +11,7 @@
     <groupId>com.contacts.kuehne</groupId>
     <artifactId>contact_list_kuehne_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>contact_list_kuehne_backend</name>
     <description>contact_list_kuehne_backend</description>
     <properties>
@@ -26,11 +26,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>-->
+            <version>42.2.2</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
