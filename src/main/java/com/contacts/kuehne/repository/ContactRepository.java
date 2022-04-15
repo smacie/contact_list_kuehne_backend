@@ -6,6 +6,10 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
+/**
+ * @author salomao.junior
+ * Contact Repository: JPA transactional methods set and overiding
+ */
 public interface ContactRepository extends JpaRepository<Contact, Long> {
 
     @Query(value = "select * from contact as c where c.full_name =?1", nativeQuery = true)

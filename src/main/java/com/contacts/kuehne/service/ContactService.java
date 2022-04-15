@@ -8,6 +8,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author salomao.junior
+ * Contact Service: JPA and repository transactional methods-
+ * calling and manipulation.
+ */
 @Service
 public class ContactService {
 
