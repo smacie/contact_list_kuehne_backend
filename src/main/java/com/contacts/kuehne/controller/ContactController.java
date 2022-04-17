@@ -2,6 +2,7 @@ package com.contacts.kuehne.controller;
 
 import com.contacts.kuehne.pojo.ContactInfo;
 import com.contacts.kuehne.service.ContactService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +16,7 @@ import java.util.List;
  * @author salomao.junior
  * Microservice main | exposed methods
  */
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class ContactController {
